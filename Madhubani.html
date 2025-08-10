@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?
+    family=Playfair+Display:wght@400;700&
+    family=Merriweather:ital,wght@0,400;0,700;1,400&
+    family=Lora:wght@400;700&
+    display=swap" rel="stylesheet">
+
+  <title>Madhubani Art - Kalakriti</title>
+  <style>
+    @font-face {
+      font-family: 'Samarkan';
+      src: url('font/SAMAN___.TTF') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      background-color: black;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    header {
+      background: url('images/Banner.jpg') no-repeat center center;
+      background-size: cover;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      padding-left: 30px;
+    }
+
+    .logo {
+      height: 100%;
+    }
+
+    .logo img {
+      height: 100%;
+      object-fit: contain;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 10px 30px;
+      gap: 15px;
+    }
+
+    nav a {
+      font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: white;
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .info {
+      font-family: 
+        'Playfair Display', 
+        'Merriweather', 
+        'Lora', 
+        Georgia, 
+        serif;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #f5f5f5;
+      letter-spacing: 0.5px;
+      margin-bottom: 2rem;
+      padding: 20px 40px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    }
+
+    @media (max-width: 768px) {
+      .gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Kalakriti Logo" />
+    </a>
+  </header>
+
+  <nav>
+    <a href="Madhubani.html">Madhubani</a>
+    <a href="Warli.html">Warli</a>
+    <a href="Pattachitra.html">Pattachitra</a>
+    <a href="Tanjore.html">Tanjore</a>
+    <a href="Phad.html">Phad</a>
+    <a href="Gond.html">Gond</a>
+  </nav>
+
+  <div class="info">
+    <h2>Madhubani Art</h2>
+    <p>
+      Madhubani, also known as Mithila painting, is a traditional folk art form from the Mithila region of Bihar, India.
+      It is characterized by intricate patterns, bold colors, and themes of nature, mythology, and daily life.
+      Artists often use natural dyes and pigments, and paintings are done with fingers, twigs, brushes, or even matchsticks.
+      This art is deeply rooted in cultural rituals and festivals, especially weddings and religious ceremonies.
+    </p>
+  </div>
+
+  <div class="gallery">
+    <img src="images/madhubani1.jpg" alt="Madhubani Art 1" />
+    <img src="images/madhubani2.jpg" alt="Madhubani Art 2" />
+    <img src="images/madhubani3.jpg" alt="Madhubani Art 3" />
+    <img src="images/madhubani4.jpg" alt="Madhubani Art 4" />
+  </div>
+</body>
+</html>
