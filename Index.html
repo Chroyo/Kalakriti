@@ -1,118 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kalakriti</title>
-  <style>
-    body {
-      margin: 0;
-      background-color: black;
-      font-family: Arial, sans-serif;
-      color: white;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalakriti</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
 
-    header {
-      background: url('images/Banner.jpg') no-repeat center center;
-      background-size: cover;
-      height: 200px;
-      display: flex;
-      align-items: center;
-      padding-left: 30px;
-    }
+        header {
+            background: url('images/Banner.jpg') no-repeat center center;
+            background-size: cover;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            padding-left: 30px;
+        }
 
-    .logo {
-      height: 100%;
-    }
+        .logo {
+            height: 100%;
+        }
 
-    .logo img {
-      height: 100%;
-      object-fit: contain;
-    }
+        .logo img {
+            height: 100%;
+            object-fit: contain;
+        }
 
-    nav {
-      display: flex;
-      justify-content: flex-start;
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 10px 30px;
-      gap: 15px;
-    }
+        nav {
+            display: flex;
+            justify-content: flex-start;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px 30px;
+            gap: 15px;
+        }
 
-    nav a {
-      font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
-      font-size: 18px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: white;
-      text-decoration: none;
-      padding: 6px 12px;
-      border-radius: 4px;
-      transition: background-color 0.3s, color 0.3s;
-    }
+        nav a {
+            font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: white;
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
 
-    nav a:hover {
-      background-color: white;
-      color: black;
-    }
+        nav a:hover {
+            background-color: white;
+            color: black;
+        }
 
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
-      padding: 40px;
-    }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 40px;
+        }
 
-    .gallery img {
-      width: 100%;
-      height: 300px;
-      object-fit: cover;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
-    }
+        .gallery img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
 
-    @media (max-width: 768px) {
-      .gallery {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
 
-    @media (max-width: 480px) {
-      .gallery {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
+
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7PZV84WF6"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EHN88QG8YR"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-H7PZV84WF6');
+  gtag('config', 'G-EHN88QG8YR');
 </script>
+
 <body>
-  <header>
-    <a href="index.html" class="logo">
-      <img src="images/logo.png" alt="Kalakriti Logo">
-    </a>
-  </header>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Kalakriti Logo" />
+        </a>
+    </header>
 
-  <nav>
-    <a href="Madhubani.html">Madhubani</a>
-    <a href="Warli.html">Warli</a>
-    <a href="Pattachitra.html">Pattachitra</a>
-    <a href="Tanjore.html">Tanjore</a>
-    <a href="Phad.html">Phad</a>
-    <a href="Gond.html">Gond</a>
-  </nav>
+    <nav>
+        <a href="Madhubani.html">Madhubani</a>
+        <a href="Warli.html">Warli</a>
+        <a href="Pattachitra.html">Pattachitra</a>
+        <a href="Tanjore.html">Tanjore</a>
+        <a href="Phad.html">Phad</a>
+        <a href="Gond.html">Gond</a>
+    </nav>
 
-  <div class="gallery">
-    <img src="images/art1.jpg" alt="Art 1" />
-    <img src="images/art2.jpg" alt="Art 2" />
-    <img src="images/art3.jpg" alt="Art 3" />
-    <img src="images/art4.jpg" alt="Art 4" />
-  </div>
+    <div class="gallery">
+        <img src="images/art1.jpg" alt="Art 1" />
+        <img src="images/art2.jpg" alt="Art 2" />
+        <img src="images/art3.jpg" alt="Art 3" />
+        <img src="images/art4.jpg" alt="Art 4" />
+    </div>
 </body>
+
 </html>
